@@ -11,7 +11,7 @@ import burger4 from './imges/burger4.jpg';
 import sliderchicken from './imges/sliderchicken.jpg';
 import CartFood from './components/CartFood';
 import Home from './Home';
-import {BrowserRouter as Router, Route,Link} from 'react-router-dom';
+import {BrowserRouter as HashRouter, Route,Link} from 'react-router-dom';
 import Mnue from './Mnue';
 import Contact from './Contact';
 import axios from 'axios'
@@ -116,7 +116,7 @@ class App extends Component {
    return (
 
 
-<Router>
+<HashRouter basename="/">
       <nav className="navbar">
         <Link to="/">Home</Link>{'  |  '}
         <Link to="/mnue">Mnue</Link>{'  |  '}
@@ -130,7 +130,7 @@ class App extends Component {
         <Route path="/contact" component={Contact} />
         <Route path="/cartfood" component={()=> <CartFood foods={this.state.carts} />} />
       </div>
-    </Router>
+      </HashRouter>
    )
  }
 }
