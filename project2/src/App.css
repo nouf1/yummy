@@ -1,5 +1,84 @@
-
-h1 {
+body {
+  /* text-align: center; */
+  width: 100%;
+  height: 100%;
+}
+/* h1 {
   text-align: center;
 
+} */
+
+a {
+  color: white !important;
 }
+
+.navbar {
+  color:white;
+  background-color: hsla(14, 100%, 53%, 0.6);
+  font-family: 'Concert One', cursive;
+}
+.containerhome {
+  color:white;
+  background-image: url(imges/slide1.jpeg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  height: 1000px;
+}
+.title h1{
+  font-size: 90px
+}
+.title {
+  
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 20px;
+  color:white;
+  font-family: 'Concert One', cursive;
+  font-size: 50px; 
+  float: left;
+}
+ .details{
+   color:blue;
+ } 
+ .contact {
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 20px;
+  color:white;
+  font-family: 'Concert One', cursive;
+  font-size: 50px; 
+  float: left;
+}
+
+.contact-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(imges/slide3.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ }
+
+ .cart{
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 20px;
+  color:blue;
+  font-family: 'Concert One', cursive;
+  font-size: 50px; 
+  float: left;
+  /* background-image: url("imges/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%; */
+ }
+  .mnue{
+    padding: 5%;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+
+ } 
+
+/* background-image: url("imges/lights.jpg");
+   background-repeat: no-repeat, repeat;
+  background-size: cover;
+  height: 1000px; */

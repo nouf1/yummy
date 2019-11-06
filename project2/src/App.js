@@ -3,12 +3,12 @@ import React, { Component } from 'react'
 import './App.css';
 import FoodList from './components/FoodList'
 // import { url } from 'inspector';
-import burger1 from './imges/burger1.jpg';
-import burger2 from './imges/burger2.jpeg';
-import burger3 from './imges/burger3.jpg';
+import image2 from './imges/image2.jpeg';
+import image3 from './imges/image3.jpg';
+import image4 from './imges/image4.jpg';
+import image5 from './imges/image5.jpg';
 import burger4 from './imges/burger4.jpg';
-import daynmitshrimp from './imges/daynmitshrimp.jpg';
-
+import sliderchicken from './imges/sliderchicken.jpg';
 import CartFood from './components/CartFood';
 import Home from './Home';
 import {BrowserRouter as Router, Route,Link} from 'react-router-dom';
@@ -22,16 +22,16 @@ class App extends Component {
    super(props)
    this.state = {
      foodDB: [{
-       img: burger1,
+       img:image2,
        name: 'Chicken Crispy',
        price: "45 SR",
      }, {
-       img:burger2 ,
+       img:image3 ,
        name: 'Solar Gravity',
        price: "45 SR",
      },
      {
-       img:burger3,
+       img:image4,
        name: 'Chickn Burger',
        price: "45 SR",
      },
@@ -41,10 +41,15 @@ class App extends Component {
        price: "45 SR",
      },
      {
-      img:daynmitshrimp,
+      img:sliderchicken,
       name: 'Dynamit-Shrimp',
+      price: "60 SR",
+    },
+    {
+      img:image5 ,
+      name: 'Crazy Fryse',
       price: "45 SR",
-    }],
+    },],
 
      carts : [],
      temp : '',
@@ -112,7 +117,7 @@ class App extends Component {
 
 
 <Router>
-      <nav>
+      <nav className="navbar">
         <Link to="/">Home</Link>{'  |  '}
         <Link to="/mnue">Mnue</Link>{'  |  '}
         <Link to="/contact">Contact</Link>{'  |  '}
