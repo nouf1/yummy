@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a46082057423d51f3cf80fd1535d96e",
+    "revision": "b2da8bcd37edd76d78300404cf20d082",
     "url": "/yummy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yummy/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "f611228a111dc9331b20",
+    "revision": "764c0e76e6e802610644",
     "url": "/yummy/static/css/main.94fad014.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yummy/static/js/2.267a0f6e.chunk.js"
   },
   {
-    "revision": "f611228a111dc9331b20",
-    "url": "/yummy/static/js/main.23891c91.chunk.js"
+    "revision": "764c0e76e6e802610644",
+    "url": "/yummy/static/js/main.e3776714.chunk.js"
   },
   {
     "revision": "3bffaf9f750059df56db",
