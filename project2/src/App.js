@@ -95,7 +95,7 @@ class App extends Component {
   
   axios({
     method:'get',
-    url:'http://api.openweathermap.org/data/2.5/weather?q=Riyadh&APPID=17fb5fb0eaaf777fa63a9d3ce7daa9c6'
+    url:'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=Riyadh&APPID=17fb5fb0eaaf777fa63a9d3ce7daa9c6'
   })
   .then(response =>{
     const temp=response.data.main.temp -273.15;
@@ -116,7 +116,7 @@ class App extends Component {
    return (
 
 
-<HashRouter basename="/">
+<HashRouter basename="/nouf1">
       <nav className="navbar">
         <Link to="/">Home</Link>{'  |  '}
         <Link to="/mnue">Mnue</Link>{'  |  '}
