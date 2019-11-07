@@ -20,7 +20,8 @@
 ---
 
 ## wireframes :
-![framework](https://user-images.githubusercontent.com/54804075/68366366-31047100-0144-11ea-8c3a-b3e45bdafeec.jpg)
+![wireframe](https://user-images.githubusercontent.com/54804075/68370429-8a24d280-014d-11ea-9fb6-c536e0c61152.png)
+
 
 ## User Story:
 - As a user,I should be able navigate the app.
