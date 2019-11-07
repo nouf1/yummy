@@ -14,7 +14,7 @@ a {
 
 .navbar {
   color:white;
-  background-color: hsla(14, 100%, 53%, 0.6);
+  background-color:#f13b3e;
   font-family: 'Concert One', cursive;
 }
 .containerhome {
@@ -38,7 +38,8 @@ a {
   float: left;
 }
  .details{
-   color:blue;
+   color:#f13b3e;
+   font-family: 'Permanent Marker', cursive;
  } 
  .contact {
   align-items: center;
@@ -62,7 +63,7 @@ a {
   align-items: center;
   margin-top: 200px;
   margin-left: 20px;
-  color:blue;
+  color:#f13b3e;
   font-family: 'Concert One', cursive;
   font-size: 50px; 
   float: left;

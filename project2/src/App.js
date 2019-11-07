@@ -9,6 +9,7 @@ import image4 from './imges/image4.jpg';
 import image5 from './imges/image5.jpg';
 import burger4 from './imges/burger4.jpg';
 import sliderchicken from './imges/sliderchicken.jpg';
+import dynamit1 from './imges/dynamit1.jpg';
 import CartFood from './components/CartFood';
 import Home from './Home';
 import {BrowserRouter as HashRouter, Route,Link} from 'react-router-dom';
@@ -22,9 +23,9 @@ class App extends Component {
    super(props)
    this.state = {
      foodDB: [{
-       img:image2,
-       name: 'Chicken Crispy',
-       price: "45 SR",
+      img: dynamit1,
+      name: 'Dynamit-Shrimp',
+      price: "45 SR",
      }, {
        img:image3 ,
        name: 'Solar Gravity',
@@ -42,14 +43,19 @@ class App extends Component {
      },
      {
       img:sliderchicken,
-      name: 'Dynamit-Shrimp',
+      name: 'Slider-Chicken',
       price: "60 SR",
     },
     {
       img:image5 ,
       name: 'Crazy Fryse',
       price: "45 SR",
-    },],
+    },
+    {
+      img:image2,
+       name: 'Chicken Crispy',
+       price: "45 SR",
+    }],
 
      carts : [],
      temp : '',
